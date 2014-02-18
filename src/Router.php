@@ -1,7 +1,7 @@
 <?php
 namespace Panadas\RouterPlugin;
 
-use Panadas\EventModule\Event;
+use Panadas\Event\Event;
 use Panadas\Framework\Application;
 use Panadas\Framework\AbstractApplicationAware;
 use Panadas\RouterPlugin\DataStructure\Routes;

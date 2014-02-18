@@ -1,7 +1,7 @@
 <?php
 namespace Panadas\RouterPlugin\DataStructure;
 
-use Panadas\DataStructureModule\Hash;
+use Panadas\DataStructure\Hash;
 
 class PatternParamRegexps extends Hash
 {
