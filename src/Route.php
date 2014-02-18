@@ -1,9 +1,9 @@
 <?php
-namespace Panadas\RouterModule;
+namespace Panadas\RouterPlugin;
 
 use Panadas\Framework\DataStructure\ActionArgs;
-use Panadas\RouterModule\DataStructure\PatternParamValues;
-use Panadas\RouterModule\DataStructure\PatternParamRegexps;
+use Panadas\RouterPlugin\DataStructure\PatternParamValues;
+use Panadas\RouterPlugin\DataStructure\PatternParamRegexps;
 use Acme;
 
 class Route

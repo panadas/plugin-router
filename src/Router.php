@@ -1,10 +1,10 @@
 <?php
-namespace Panadas\RouterModule;
+namespace Panadas\RouterPlugin;
 
-use Panadas\EventManager\Event;
-use Panadas\RouterModule\DataStructure\Routes;
+use Panadas\EventModule\Event;
 use Panadas\Framework\Application;
 use Panadas\Framework\AbstractApplicationAware;
+use Panadas\RouterPlugin\DataStructure\Routes;
 
 class Router extends AbstractApplicationAware
 {

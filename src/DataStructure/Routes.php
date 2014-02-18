@@ -1,7 +1,7 @@
 <?php
-namespace Panadas\RouterModule\DataStructure;
+namespace Panadas\RouterPlugin\DataStructure;
 
-use Panadas\DataStructure\Hash;
+use Panadas\DataStructureModule\Hash;
 
 class Routes extends Hash
 {
