@@ -4,7 +4,6 @@ namespace Panadas\RouterPlugin;
 use Panadas\Framework\DataStructure\ActionArgs;
 use Panadas\RouterPlugin\DataStructure\PatternParamValues;
 use Panadas\RouterPlugin\DataStructure\PatternParamRegexps;
-use Acme;
 
 class Route
 {

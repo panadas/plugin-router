@@ -83,6 +83,7 @@ class Router extends AbstractApplicationAware
             if (null !== $logger) {
                 $logger->warn("Route not found for request: {$method} {$uri})");
             }
+
             return;
         }
 
@@ -116,6 +117,7 @@ class Router extends AbstractApplicationAware
 
         if (!$matched) {
             $name = null;
+
             return;
         }
 
